@@ -1,0 +1,51 @@
+﻿question,answer
+What is Python?,"Python is a popular, beginner-friendly programming language used for web development, automation, data analysis, and artificial intelligence."
+What is programming?,Programming is the process of writing instructions that tell a computer how to perform tasks.
+What is a variable?,A variable is a named place in a program where a value can be stored.
+What is a data type?,"A data type describes the kind of value a variable stores, such as text, an integer, or a decimal number."
+What is a list in Python?,"A list is an ordered, changeable collection of items in Python."
+What is a tuple in Python?,A tuple is an ordered collection of items that cannot be changed after it is created.
+What is a dictionary in Python?,A dictionary stores information as key-value pairs.
+What is a function?,A function is a reusable block of code that performs a particular task.
+What is a loop?,A loop repeats a block of code while a condition is true or for each item in a collection.
+What is a for loop?,A for loop repeats code for each item in a sequence or iterable.
+What is a while loop?,A while loop repeats code as long as its condition remains true.
+What is an error in programming?,An error is a problem in a program that prevents it from working as intended.
+What is debugging?,Debugging is the process of finding and fixing errors in a program.
+What is a module in Python?,A module is a Python file containing code that can be imported and reused in another program.
+What is pip?,Pip is Python's package installer. It is used to install and manage third-party Python packages.
+What is VS Code?,Visual Studio Code is a code editor that supports programming languages and extensions.
+What is a terminal?,A terminal is a text-based interface where users can run commands and programs.
+What is a CSV file?,"A CSV file is a text file that stores tabular data, usually with values separated by commas."
+How do I open a CSV file in Python?,You can use Python's built-in csv module or a library such as pandas to read a CSV file.
+What is a dataset?,A dataset is a collection of related data organized for analysis or processing.
+What is data science?,"Data science combines programming, statistics, and domain knowledge to find useful insights from data."
+What is artificial intelligence?,Artificial intelligence is the field of creating computer systems that perform tasks associated with human intelligence.
+What is machine learning?,Machine learning is a branch of AI in which systems learn patterns from data to make predictions or decisions.
+What is supervised learning?,Supervised learning trains a model using examples that include both input data and known target answers.
+What is unsupervised learning?,Unsupervised learning looks for patterns or groups in data without provided target labels.
+What is classification?,"Classification is a machine-learning task that predicts a category or class, such as spam or not spam."
+What is regression?,"Regression is a machine-learning task that predicts a numerical value, such as price or sales."
+What is a machine-learning model?,A machine-learning model is a learned mathematical pattern used to make predictions from input data.
+What is training data?,Training data is the data used to teach a machine-learning model.
+What is test data?,Test data is separate data used to evaluate how well a trained model performs on unseen examples.
+What is train-test split?,Train-test split divides a dataset into training data and testing data so model performance can be evaluated.
+What is accuracy?,Accuracy is the proportion of predictions that a classification model gets correct.
+What is overfitting?,Overfitting happens when a model learns the training data too closely and performs poorly on new data.
+What is underfitting?,Underfitting happens when a model is too simple to learn the important patterns in the data.
+What is a decision tree?,A decision tree is a model that makes predictions by following a series of feature-based decisions.
+What is linear regression?,Linear regression models the relationship between input features and a numerical target using a linear equation.
+What is a chatbot?,A chatbot is a software application that communicates with users through text or voice.
+How does this FAQ chatbot work?,This FAQ chatbot compares your question with saved questions in faqs.csv and returns the closest matching answer.
+How can I add more questions to the chatbot?,Open faqs.csv and add new rows under the question and answer columns. Save the file and restart the chatbot.
+Do I need to change chatbot.py to add FAQs?,"No. You can add or edit FAQ rows in faqs.csv without changing chatbot.py, as long as you keep the question and answer column names."
+Why does the chatbot not understand my question?,The question may use words that do not closely match the saved FAQs. Try rephrasing it or add a similar question to faqs.csv.
+How do I start the chatbot?,Open a terminal in the folder containing chatbot.py and run python chatbot.py.
+How do I stop the chatbot?,"Type quit, exit, or bye when the chatbot asks for your next question."
+What should the CSV column names be?,The CSV file must contain two column names: question and answer.
+Can I write commas inside an FAQ answer?,Yes. Put CSV fields containing commas inside double quotation marks.
+Can I edit an existing answer?,"Yes. Edit the answer in the matching row of faqs.csv, save the file, and restart the chatbot."
+Does this chatbot use the internet?,No. This simple FAQ chatbot works locally with the questions and answers stored in its CSV file.
+Is this chatbot a generative AI chatbot?,No. It is a rule-based FAQ matching chatbot. It selects answers from its saved FAQ data rather than generating new answers.
+Where should I save faqs.csv?,Save faqs.csv in the same folder as chatbot.py so the program can find it.
+What should I do if faqs.csv is missing?,Place faqs.csv beside chatbot.py and run the chatbot again.
